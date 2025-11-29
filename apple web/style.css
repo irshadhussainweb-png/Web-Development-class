@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+
+.section h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+
+.section p {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+}
+
+.section2 h1 {
+    color: #000;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.section2 p {
+    color: #000;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: #2997ff;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #2997ff;
+    color: white;
+}
+
+.btn-light {
+    background-color: #2997ff;
+    color: white;
+}
+
+.btn-light:hover {
+    background-color: white;
+    color: #2997ff;
+}
+
+.section1 {
+    background-image: url(./Images/background\ 17\ pro.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.section2 {
+    background-image: url(./Images/2nd\ section.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.section3 {
+    background-image: url(./Images/3rd\ section.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.double-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+
+.half {
+    position: relative;
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.left1 {
+    background-image: url(./Images/air\ pods.jfif);
+    background-color: #f5f5f7;
+
+}
+
+
+.right1 {
+    background-image: url(./Images/macbook.jfif);
+
+}
+
+
+.half .content {
+    max-width: 400px;
+}
+
+.half .content h1 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.half .content p {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #2997ff;
+    border: 1px solid #2997ff;
+    padding: 8px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #2997ff;
+    color: white;
+}
+
+.btn-light {
+    background-color: #2997ff;
+    color: white;
+}
+
+.btn-light:hover {
+    background-color: white;
+    color: #2997ff;
+}
+
+.legal-text {
+    background-color: #f5f5f7;
+    color: #6e6e73;
+    font-size: 12px;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.legal-text .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.legal-text p {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #f5f5f7;
+    border-top: 1px solid #d2d2d7;
+    padding: 60px 10%;
+    color: #1d1d1f;
+}
+
+.footer-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.footer-colum {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1d1d1f;
+}
+
+.footer-colum ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.footer-colum ul li {
+    font-size: 12px;
+    color: #424245;
+    text-decoration: none;
+}
+
+.footer-colum ul li a {
+    font-size: 12px;
+    color: #424245;
+    text-decoration: none;
+}
+
+.footer-colum ul li:hover {
+    background-color: #2997ff;
+    color: #fff;
+
+}
