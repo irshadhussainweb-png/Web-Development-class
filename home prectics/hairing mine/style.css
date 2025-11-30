@@ -346,47 +346,63 @@ body {
     color: #fff;
 }
 
-.cards {
-    border: 1px solid #fff;
-    width: 100%;
-    height: 302;
-    margin: 0 15px;
-    padding: 20px 0;
+.jobcard {
+    width: 1089px;
+    height: 302px;
+
 
 }
 
 .card {
-    width: 350px;
-    height: 230px;
-    background-color: rgb(41 41 48 / var(--tw-bg-opacity, 1));
-    border: 1px solid blue;
-}
-
-.card p {
+    border-radius: 10px;
+    width: 342px;
+    height: 253px;
+    padding: 25px;
+    background: #292930;
     color: #d3d3d3;
-}
-
-.cardcontant .price {
-    color: rgb(77, 59, 219);
-    margin: 25px auto;
-}
-
-.cardcontant {
-    position: relative;
 
 }
 
-.logocard {
-    position: absolute;
-    top: 20px;
-    left: 290px;
-    right: 0px;
-    bottom: 10px;
+.cardheadr {
     width: 100%;
-    height: 90px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-.logocard img {
-    width: 40px;
-    height: 25px;
+.contant {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.contant p {
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.0093em;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+
+}
+
+.contant p span {
+    color: rgb(77, 59, 219);
+}
+
+.cardfooter {
+    text-align: right;
+
+}
+
+.footarcontant {
+    display: flex;
+    justify-content: space-around;
+    justify-items: flex-starts;
 }
