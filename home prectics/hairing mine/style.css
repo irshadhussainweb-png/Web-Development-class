@@ -19,7 +19,7 @@ body {
     gap: 24px;
     padding: 24px;
     margin: 0 75.5px;
-    border: 1px solid red;
+
 
 }
 
@@ -53,7 +53,7 @@ body {
 
 .herosection {
     width: 1351;
-    border: 1px solid white;
+
 }
 
 .herosection h1 {
@@ -317,11 +317,76 @@ body {
 }
 
 .Banner {
-    width: 100%;
+    width: 80% 50%;
+
 
 }
 
 .Banner img {
     max-width: 100%;
     height: auto;
+}
+
+.cardsection {
+    margin-top: 80PX;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+.cardsection h3 {
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+    text-align: center;
+    font-size: 48px;
+    margin: 0 auto;
+    color: #6851ff;
+}
+
+.cardsection h3 span {
+    color: #fff;
+}
+
+.cards {
+    border: 1px solid #fff;
+    width: 100%;
+    height: 302;
+    margin: 0 15px;
+    padding: 20px 0;
+
+}
+
+.card {
+    width: 350px;
+    height: 230px;
+    background-color: rgb(41 41 48 / var(--tw-bg-opacity, 1));
+    border: 1px solid blue;
+}
+
+.card p {
+    color: #d3d3d3;
+}
+
+.cardcontant .price {
+    color: rgb(77, 59, 219);
+    margin: 25px auto;
+}
+
+.cardcontant {
+    position: relative;
+
+}
+
+.logocard {
+    position: absolute;
+    top: 20px;
+    left: 290px;
+    right: 0px;
+    bottom: 10px;
+    width: 100%;
+    height: 90px;
+}
+
+.logocard img {
+    width: 40px;
+    height: 25px;
 }
